@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/Ascii.cpp
+Ascii.h
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/Ascii.h
+ascii.h
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/ascii.h
+
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/Ascii.h
+fstream
+-
+iostream
+-
+
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/ascii.h
+fstream
+-
+iostream
+-
+
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/main.cpp
+iostream
+-
+Ascii.h
+/Users/hildabermejo/Documents/2018-2 Cursos/CS1102 POO-1/98 Proyecto1-De mis secciones/Proyecto1-Alumnos/Ascii.h
+
