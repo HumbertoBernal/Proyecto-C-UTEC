@@ -20,14 +20,48 @@ int main() {
     "	╚═╝  ╚═╝╚══════╝ ╚═════╝╚═╝╚═╝ \n\n";
 
    cout << "\n\nImprime la matriz\n\n";
+   cin >> opcion;
 
-  for (int i = 0; i < alto; ++i) {
-    for (int j = 0; j < ancho; ++j) {
+  if (opcion==0)
+  {
+   for (int i = 0; i < alto; ++i)
+   {
+    for (int j = 0; j < ancho; ++j)
+    {
       cout << matriz[i][j];
     }
     cout << '\n';
+   }
   }
+  if (opcion==1)
+  {
+    for (int i =alto-1;0 <= i; --i)
+    {
+      for (int j = ancho-1 ; 0 <= j; --j)
+      {
+        cout << matriz[i][j];
+      }
+      cout << '\n';
+    }
+  }
+  if (opcion==2)
+  {
+    for (int i =0;i < alto; ++i)
+    {
+      for (int j = ancho-1 ; 0 <= j; --j)
+      {
+        cout << matriz[i][j];
+      }
+      cout << '\n';
+    }
 
+  }
+  if (opcion==3){
+
+  }
+  if (opcion==4){
+
+  }
 
   deleteASCII(matriz, alto, ancho);
   return 0;
