@@ -43,16 +43,23 @@ int main() {
   }
   if (opcion==1)
   {
-    for (int i =alto-1;0 <= i; --i)
+    
+  }
+  if (opcion==2)
+  {
+  }
+  if (opcion==3)
+  {
+    for (int i =alto-1;0 < i; --i)
     {
-      for (int j = ancho-1 ; 0 <= j; --j)
+      for (int j = 0 ; j< ancho; ++j)
       {
         cout << matriz[i][j];
       }
       cout << '\n';
     }
   }
-  if (opcion==2)
+  if (opcion==4)
   {
     for (int i =0;i < alto; ++i)
     {
@@ -62,13 +69,17 @@ int main() {
       }
       cout << '\n';
     }
-
   }
-  if (opcion==3){
-
-  }
-  if (opcion==4){
-
+  if (opcion==5)
+  {
+    for (int i =alto-1;0 <= i; --i)
+    {
+      for (int j = ancho-1 ; 0 <= j; --j)
+      {
+        cout << matriz[i][j];
+      }
+      cout << '\n';
+    }
   }
 
   deleteASCII(matriz, alto, ancho);
