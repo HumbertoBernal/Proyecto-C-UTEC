@@ -30,7 +30,7 @@ int main() {
   "6. Salir\n"
   "Ingresa una opcion: ";
    cin >> opcion;
-  if (opcion==0)
+  if (opcion==1)
   {
    for (int i = 0; i < alto; ++i)
    {
@@ -40,10 +40,6 @@ int main() {
     }
     cout << '\n';
    }
-  }
-  if (opcion==1)
-  {
-    
   }
   if (opcion==2)
   {
