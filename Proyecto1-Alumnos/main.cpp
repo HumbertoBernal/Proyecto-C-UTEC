@@ -32,6 +32,24 @@ void funcion_opciones()
     }
     if (opcion==2)
     {
+        for (int i = 0; i < alto; ++i)
+        {
+            for (int j = 0; j < ancho; ++j)
+            {
+                if (matriz[i][j] == 32)
+                    matriz[i][j] = 64;
+                if (matriz[i][j] != 64)
+                    matriz[i][j]=0;
+            }
+                
+        }
+        for (int i = 0; i < alto; ++i)
+        {
+            for (int j = 0; j < ancho; ++j)
+                cout << matriz[i][j];
+            cout << '\n';
+        }
+            
 
     }
     if (opcion==3)
