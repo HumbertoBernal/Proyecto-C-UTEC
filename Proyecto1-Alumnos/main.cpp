@@ -79,7 +79,15 @@ void funcion_opciones()
     }
     if (opcion==5)
     {
-        
+        for (int i =alto-1;0 <= i; --i)
+        {
+            for (int j = ancho-1 ; 0 <= j; --j)
+            {
+                cout << matriz[i][j];
+            }
+            cout << '\n';
+        }
+        funcion_opciones();
     }
     if (opcion==6)
     {
